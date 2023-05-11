@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ModesV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ModesV1ApiService(t *testing.T) {
 
 	t.Run("Test ModesV1ApiService DeleteSubjectMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -38,7 +38,7 @@ func Test_openapi_ModesV1ApiService(t *testing.T) {
 
 	t.Run("Test ModesV1ApiService GetMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -52,7 +52,7 @@ func Test_openapi_ModesV1ApiService(t *testing.T) {
 
 	t.Run("Test ModesV1ApiService GetTopLevelMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ModesV1Api.GetTopLevelMode(context.Background()).Execute()
 
@@ -64,7 +64,7 @@ func Test_openapi_ModesV1ApiService(t *testing.T) {
 
 	t.Run("Test ModesV1ApiService UpdateMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -78,7 +78,7 @@ func Test_openapi_ModesV1ApiService(t *testing.T) {
 
 	t.Run("Test ModesV1ApiService UpdateTopLevelMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ModesV1Api.UpdateTopLevelMode(context.Background()).Execute()
 

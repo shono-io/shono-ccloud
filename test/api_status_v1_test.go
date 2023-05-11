@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_StatusV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_StatusV1ApiService(t *testing.T) {
 
 	t.Run("Test StatusV1ApiService ListConnectv1ConnectorTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string
@@ -40,7 +40,7 @@ func Test_openapi_StatusV1ApiService(t *testing.T) {
 
 	t.Run("Test StatusV1ApiService ReadConnectv1ConnectorStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string

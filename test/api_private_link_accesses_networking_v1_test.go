@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PrivateLinkAccessesNetworkingV1ApiService CreateNetworkingV1PrivateLinkAccess", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PrivateLinkAccessesNetworkingV1Api.CreateNetworkingV1PrivateLinkAccess(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PrivateLinkAccessesNetworkingV1ApiService DeleteNetworkingV1PrivateLinkAccess", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PrivateLinkAccessesNetworkingV1ApiService GetNetworkingV1PrivateLinkAccess", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PrivateLinkAccessesNetworkingV1ApiService ListNetworkingV1PrivateLinkAccesses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PrivateLinkAccessesNetworkingV1Api.ListNetworkingV1PrivateLinkAccesses(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_PrivateLinkAccessesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PrivateLinkAccessesNetworkingV1ApiService UpdateNetworkingV1PrivateLinkAccess", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

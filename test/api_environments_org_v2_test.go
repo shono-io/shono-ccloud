@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
 
 	t.Run("Test EnvironmentsOrgV2ApiService CreateOrgV2Environment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EnvironmentsOrgV2Api.CreateOrgV2Environment(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
 
 	t.Run("Test EnvironmentsOrgV2ApiService DeleteOrgV2Environment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
 
 	t.Run("Test EnvironmentsOrgV2ApiService GetOrgV2Environment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
 
 	t.Run("Test EnvironmentsOrgV2ApiService ListOrgV2Environments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EnvironmentsOrgV2Api.ListOrgV2Environments(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_EnvironmentsOrgV2ApiService(t *testing.T) {
 
 	t.Run("Test EnvironmentsOrgV2ApiService UpdateOrgV2Environment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

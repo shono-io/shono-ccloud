@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ConfigsV3ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService DeleteKafkaClusterConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var name string
@@ -38,7 +38,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService DeleteKafkaTopicConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string
@@ -53,7 +53,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService GetKafkaClusterConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var name string
@@ -68,7 +68,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService GetKafkaTopicConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string
@@ -84,7 +84,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService ListKafkaAllTopicConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -98,7 +98,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService ListKafkaClusterConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -112,7 +112,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService ListKafkaDefaultTopicConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string
@@ -127,7 +127,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService ListKafkaTopicConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string
@@ -142,7 +142,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService UpdateKafkaClusterConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var name string
@@ -156,7 +156,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService UpdateKafkaClusterConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -169,7 +169,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService UpdateKafkaTopicConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string
@@ -184,7 +184,7 @@ func Test_openapi_ConfigsV3ApiService(t *testing.T) {
 
 	t.Run("Test ConfigsV3ApiService UpdateKafkaTopicConfigBatch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var topicName string

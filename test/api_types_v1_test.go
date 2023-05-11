@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TypesV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_TypesV1ApiService(t *testing.T) {
 
 	t.Run("Test TypesV1ApiService CreateTagDefs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TypesV1Api.CreateTagDefs(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_TypesV1ApiService(t *testing.T) {
 
 	t.Run("Test TypesV1ApiService DeleteTagDef", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tagName string
 
@@ -49,7 +49,7 @@ func Test_openapi_TypesV1ApiService(t *testing.T) {
 
 	t.Run("Test TypesV1ApiService GetAllTagDefs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TypesV1Api.GetAllTagDefs(context.Background()).Execute()
 
@@ -61,7 +61,7 @@ func Test_openapi_TypesV1ApiService(t *testing.T) {
 
 	t.Run("Test TypesV1ApiService GetTagDefByName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tagName string
 
@@ -75,7 +75,7 @@ func Test_openapi_TypesV1ApiService(t *testing.T) {
 
 	t.Run("Test TypesV1ApiService UpdateTagDefs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TypesV1Api.UpdateTagDefs(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OrganizationsPartnerV2ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OrganizationsPartnerV2ApiService(t *testing.T) {
 
 	t.Run("Test OrganizationsPartnerV2ApiService GetPartnerV2Organization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -38,7 +38,7 @@ func Test_openapi_OrganizationsPartnerV2ApiService(t *testing.T) {
 
 	t.Run("Test OrganizationsPartnerV2ApiService ListPartnerV2Organizations", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OrganizationsPartnerV2Api.ListPartnerV2Organizations(context.Background()).Execute()
 

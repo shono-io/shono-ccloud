@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
 
 	t.Run("Test APIKeysIamV2ApiService CreateIamV2ApiKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.APIKeysIamV2Api.CreateIamV2ApiKey(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
 
 	t.Run("Test APIKeysIamV2ApiService DeleteIamV2ApiKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
 
 	t.Run("Test APIKeysIamV2ApiService GetIamV2ApiKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
 
 	t.Run("Test APIKeysIamV2ApiService ListIamV2ApiKeys", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.APIKeysIamV2Api.ListIamV2ApiKeys(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_APIKeysIamV2ApiService(t *testing.T) {
 
 	t.Run("Test APIKeysIamV2ApiService UpdateIamV2ApiKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

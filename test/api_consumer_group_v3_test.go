@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService GetKafkaConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string
@@ -40,7 +40,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService GetKafkaConsumerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string
@@ -55,7 +55,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService GetKafkaConsumerGroupLagSummary", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string
@@ -70,7 +70,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService GetKafkaConsumerLag", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string
@@ -87,7 +87,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService ListKafkaConsumerGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -101,7 +101,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService ListKafkaConsumerLags", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string
@@ -116,7 +116,7 @@ func Test_openapi_ConsumerGroupV3ApiService(t *testing.T) {
 
 	t.Run("Test ConsumerGroupV3ApiService ListKafkaConsumers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var consumerGroupId string

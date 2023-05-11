@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_SubjectsV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService DeleteSchemaVersion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 		var version string
@@ -39,7 +39,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService DeleteSubject", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -53,7 +53,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService GetReferencedBy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 		var version string
@@ -68,7 +68,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService GetSchemaByVersion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 		var version string
@@ -83,7 +83,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService GetSchemaOnly1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 		var version string
@@ -98,7 +98,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService List", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.SubjectsV1Api.List(context.Background()).Execute()
 
@@ -110,7 +110,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService ListVersions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -124,7 +124,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService LookUpSchemaUnderSubject", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 
@@ -138,7 +138,7 @@ func Test_openapi_SubjectsV1ApiService(t *testing.T) {
 
 	t.Run("Test SubjectsV1ApiService Register", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var subject string
 

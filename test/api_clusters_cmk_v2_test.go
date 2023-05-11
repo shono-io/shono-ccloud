@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
 
 	t.Run("Test ClustersCmkV2ApiService CreateCmkV2Cluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClustersCmkV2Api.CreateCmkV2Cluster(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
 
 	t.Run("Test ClustersCmkV2ApiService DeleteCmkV2Cluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
 
 	t.Run("Test ClustersCmkV2ApiService GetCmkV2Cluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
 
 	t.Run("Test ClustersCmkV2ApiService ListCmkV2Clusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClustersCmkV2Api.ListCmkV2Clusters(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_ClustersCmkV2ApiService(t *testing.T) {
 
 	t.Run("Test ClustersCmkV2ApiService UpdateCmkV2Cluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

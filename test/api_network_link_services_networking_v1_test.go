@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test NetworkLinkServicesNetworkingV1ApiService CreateNetworkingV1NetworkLinkService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkLinkServicesNetworkingV1Api.CreateNetworkingV1NetworkLinkService(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test NetworkLinkServicesNetworkingV1ApiService DeleteNetworkingV1NetworkLinkService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test NetworkLinkServicesNetworkingV1ApiService GetNetworkingV1NetworkLinkService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test NetworkLinkServicesNetworkingV1ApiService ListNetworkingV1NetworkLinkServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkLinkServicesNetworkingV1Api.ListNetworkingV1NetworkLinkServices(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_NetworkLinkServicesNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test NetworkLinkServicesNetworkingV1ApiService UpdateNetworkingV1NetworkLinkService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

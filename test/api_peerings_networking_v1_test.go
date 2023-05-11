@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PeeringsNetworkingV1ApiService CreateNetworkingV1Peering", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PeeringsNetworkingV1Api.CreateNetworkingV1Peering(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PeeringsNetworkingV1ApiService DeleteNetworkingV1Peering", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PeeringsNetworkingV1ApiService GetNetworkingV1Peering", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PeeringsNetworkingV1ApiService ListNetworkingV1Peerings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PeeringsNetworkingV1Api.ListNetworkingV1Peerings(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_PeeringsNetworkingV1ApiService(t *testing.T) {
 
 	t.Run("Test PeeringsNetworkingV1ApiService UpdateNetworkingV1Peering", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

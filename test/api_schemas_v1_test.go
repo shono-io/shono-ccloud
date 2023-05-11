@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_SchemasV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int32
 
@@ -38,7 +38,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetSchemaOnly", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int32
 
@@ -52,7 +52,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetSchemaTypes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.SchemasV1Api.GetSchemaTypes(context.Background()).Execute()
 
@@ -64,7 +64,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetSchemas", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.SchemasV1Api.GetSchemas(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetSubjects", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int32
 
@@ -90,7 +90,7 @@ func Test_openapi_SchemasV1ApiService(t *testing.T) {
 
 	t.Run("Test SchemasV1ApiService GetVersions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int32
 

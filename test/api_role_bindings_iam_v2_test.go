@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_RoleBindingsIamV2ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RoleBindingsIamV2ApiService(t *testing.T) {
 
 	t.Run("Test RoleBindingsIamV2ApiService CreateIamV2RoleBinding", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RoleBindingsIamV2Api.CreateIamV2RoleBinding(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_RoleBindingsIamV2ApiService(t *testing.T) {
 
 	t.Run("Test RoleBindingsIamV2ApiService DeleteIamV2RoleBinding", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -50,7 +50,7 @@ func Test_openapi_RoleBindingsIamV2ApiService(t *testing.T) {
 
 	t.Run("Test RoleBindingsIamV2ApiService GetIamV2RoleBinding", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -64,7 +64,7 @@ func Test_openapi_RoleBindingsIamV2ApiService(t *testing.T) {
 
 	t.Run("Test RoleBindingsIamV2ApiService ListIamV2RoleBindings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RoleBindingsIamV2Api.ListIamV2RoleBindings(context.Background()).Execute()
 

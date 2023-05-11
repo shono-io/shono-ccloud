@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService CreateConnectv1Connector", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 		var kafkaClusterId string
@@ -39,7 +39,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService CreateOrUpdateConnectv1ConnectorConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string
@@ -55,7 +55,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService DeleteConnectv1Connector", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string
@@ -71,7 +71,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService GetConnectv1ConnectorConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string
@@ -87,7 +87,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService ListConnectv1Connectors", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 		var kafkaClusterId string
@@ -102,7 +102,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService ListConnectv1ConnectorsWithExpansions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 		var kafkaClusterId string
@@ -117,7 +117,7 @@ func Test_openapi_ConnectorsV1ApiService(t *testing.T) {
 
 	t.Run("Test ConnectorsV1ApiService ReadConnectv1Connector", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var connectorName string
 		var environmentId string

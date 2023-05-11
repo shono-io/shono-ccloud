@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService CreateKafkaLink", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -37,7 +37,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService CreateKafkaMirrorTopic", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -51,7 +51,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService DeleteKafkaLink", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -65,7 +65,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService DeleteKafkaLinkConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -80,7 +80,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService GetKafkaLink", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -95,7 +95,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService GetKafkaLinkConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -111,7 +111,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService ListKafkaLinkConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -126,7 +126,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService ListKafkaLinks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -140,7 +140,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService ListKafkaMirrorTopics", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 
@@ -154,7 +154,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService ListKafkaMirrorTopicsUnderLink", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -169,7 +169,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService ReadKafkaMirrorTopic", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -185,7 +185,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaLinkConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -200,7 +200,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaLinkConfigBatch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -214,7 +214,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaMirrorTopicsFailover", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -229,7 +229,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaMirrorTopicsPause", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -244,7 +244,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaMirrorTopicsPromote", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string
@@ -259,7 +259,7 @@ func Test_openapi_ClusterLinkingV3ApiService(t *testing.T) {
 
 	t.Run("Test ClusterLinkingV3ApiService UpdateKafkaMirrorTopicsResume", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId string
 		var linkName string

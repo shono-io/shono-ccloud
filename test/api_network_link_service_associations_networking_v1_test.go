@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/shono-io/shono-ccloud"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NetworkLinkServiceAssociationsNetworkingV1ApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NetworkLinkServiceAssociationsNetworkingV1ApiService(t *testin
 
 	t.Run("Test NetworkLinkServiceAssociationsNetworkingV1ApiService GetNetworkingV1NetworkLinkServiceAssociation", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -38,7 +38,7 @@ func Test_openapi_NetworkLinkServiceAssociationsNetworkingV1ApiService(t *testin
 
 	t.Run("Test NetworkLinkServiceAssociationsNetworkingV1ApiService ListNetworkingV1NetworkLinkServiceAssociations", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkLinkServiceAssociationsNetworkingV1Api.ListNetworkingV1NetworkLinkServiceAssociations(context.Background()).Execute()
 
